@@ -25,7 +25,7 @@ output files:
 input files: rand_MorganFP (split_indices_fold{i}.pckl, i=fold number);fp folder (molecular representation of main set and external dataset); Ext.csv
 output files: {algorithm} (**p_{data}_{feature}_fold{i}.csv**. data=train, val, test and Ext. feature= AtomPairFP, MOE.... i=0,1, 2, 3, 4(fold number). algorithm=xgb,fcnn,rf,svm,logreg)
 
-|result | 
+|result |result |result |
 | --- | --- | --- |  
 | method| result | result |  
 | method| result | result | 
