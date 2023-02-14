@@ -14,6 +14,7 @@ png
 
 ## Calculation and analysis of the model
 note: We used chemprop to partition the main dataset and then performed training and evaluation of the model. We also utilized an external dataset for additional evaluation of the model's performance.
+
 output files: 
 rand_{fearue} (feature= , AtomPairFP, Autocorr, AvalonFP, Charge, Connectivity, Constitution, Estate, EstateFP, Fragment, InfoContent, Kappa, MACCSFP, MAP4, Matrix, MHFP6, MOE, MorganFP, Path, PharmacoErGFP, PharmacoPFP, Property, PubChemFP, RDkitFP, Topology, TorsionFP)
 
