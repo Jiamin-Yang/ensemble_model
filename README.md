@@ -38,18 +38,20 @@ note: We used chemprop to partition the main dataset and then performed training
 
 folders：
 
-1. rand_{fearue} ：the split main set (including compound SMILES, feature, label)  
+1. **rand_{fearue}** ：the split main set (including compound SMILES, feature, label)  
 (feature= , AtomPairFP, Autocorr, AvalonFP, Charge, Connectivity, Constitution, Estate, EstateFP, Fragment, InfoContent, Kappa, MACCSFP, MAP4, Matrix, MHFP6, MOE, MorganFP, Path, PharmacoErGFP, PharmacoPFP, Property, PubChemFP, RDkitFP, Topology, TorsionFP)
 
-2. xgb, svm, log, DMPNN, rf and fcnn (the predictive probability of different models)
+2. **xgb, svm, log, DMPNN, rf and fcnn** (the predictive probability of different models)
 
-3. esb, esb_01, voting (the evaluation results of different ensmeble models: change number of nodes in FCNN (esb/esb.csv) and number of baseline models (esb_topN.csv), binarize or not in layer 2 (esb_01/esb_topN.csv), stacking or voting (vot_topN.csv), evaluate the model performance using different external datasets (esb_rmSim.csv) )
+3. **esb, esb_01, voting** (the evaluation results of different ensmeble models: change number of nodes in FCNN (esb/esb.csv) and number of baseline models (esb_topN.csv), binarize or not in layer 2 (esb_01/esb_topN.csv), stacking or voting (vot_topN.csv), evaluate the model performance using different external datasets (esb_rmSim.csv) )
 
-4. fp (the molecular representations of compounds in main set and external dataset), fp2 (the molecular representations of compounds in different external datasets)
+4. **fp** (the molecular representations of compounds in main set and external dataset)  
+ **fp2** (the molecular representations of compounds in different external datasets)
 
-5. grouped_esb_metric (the performance values of ensmeble model using different metrics), grouped_metric (the performance values of baseline models using different metrics)
+5. **grouped_esb_metric** (the performance values of ensmeble model using different metrics)  
+**grouped_metric** (the performance values of baseline models using different metrics)
 
-6. fcnn_AtomPairFP_search_param1, fcnn_AtomPairFP_search_param2_2layer (optimize the parameters of FCNN)
+6. **fcnn_AtomPairFP_search_param1, fcnn_AtomPairFP_search_param2_2layer** (optimize the parameters of FCNN)
 
 
 
