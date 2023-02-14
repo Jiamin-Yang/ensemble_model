@@ -15,7 +15,7 @@ png
 ##Calculation and analysis of the model
 note: We used chemprop to partition the main dataset and then performed training and evaluation of the model. We also utilized an external dataset for additional evaluation of the model's performance.
 output files: 
-| rand_AtomPairFP| rand_Autocorr|rand_AvalonFP|rand_Charge|rand_Connectivity|rand_Constitution|
+| rand_AtomPairFP | rand_Autocorr|rand_AvalonFP|rand_Charge|rand_Connectivity|rand_Constitution|
 | rand_Estate|rand_EstateFP|rand_Fragment|rand_InfoContent|rand_Kappa|rand_MACCSFP|
 | rand_MAP4|rand_Matrix|rand_MHFP6|rand_MOE|rand_MorganFP|rand_Path|
 | rand_PharmacoErGFP|rand_PharmacoPFP|rand_Property|rand_PubChemFP|rand_RDkitFP|rand_Topology|
