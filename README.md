@@ -12,7 +12,7 @@ Table of Contents:
 ## Ensemble model architecture
 png
 
-##Calculation and analysis of the model
+## Calculation and analysis of the model
 note: We used chemprop to partition the main dataset and then performed training and evaluation of the model. We also utilized an external dataset for additional evaluation of the model's performance.
 
 output files: 
