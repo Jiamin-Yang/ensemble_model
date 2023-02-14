@@ -38,7 +38,7 @@ note: We used chemprop to partition the main dataset and then performed training
 
 folders：
 
-1. rand_{fearue} ：the split main set (including compound SMILES, feature, label)
+1. rand_{fearue} ：the split main set (including compound SMILES, feature, label)  
 (feature= , AtomPairFP, Autocorr, AvalonFP, Charge, Connectivity, Constitution, Estate, EstateFP, Fragment, InfoContent, Kappa, MACCSFP, MAP4, Matrix, MHFP6, MOE, MorganFP, Path, PharmacoErGFP, PharmacoPFP, Property, PubChemFP, RDkitFP, Topology, TorsionFP)
 
 2. xgb, svm, log, DMPNN, rf and fcnn (the predictive probability of different models)
