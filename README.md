@@ -15,7 +15,7 @@ png
 ## Calculation and analysis of the model
 note: We used chemprop to partition the main dataset and then performed training and evaluation of the model. We also utilized an external dataset for additional evaluation of the model's performance.
 output files: 
-feature=AtomPairFP, Autocorr, AvalonFP, Charge, Connectivity, Constitution, Estate, EstateFP, Fragment, InfoContent, Kappa, MACCSFP, MAP4, Matrix, MHFP6, MOE, MorganFP, Path, PharmacoErGFP, PharmacoPFP, Property, PubChemFP, RDkitFP, Topology, TorsionFP
+rand_{fearue} (feature= , AtomPairFP, Autocorr, AvalonFP, Charge, Connectivity, Constitution, Estate, EstateFP, Fragment, InfoContent, Kappa, MACCSFP, MAP4, Matrix, MHFP6, MOE, MorganFP, Path, PharmacoErGFP, PharmacoPFP, Property, PubChemFP, RDkitFP, Topology, TorsionFP)
 
 ### Script: 1_baseline_models_chemprop1.4.0.ipynb (build baseline models and get predictive score)
 input files: rand_MorganFP (split_indices_fold{i}.pckl, i=fold number);fp folder (molecular representation of main set and external dataset); Ext.csv
