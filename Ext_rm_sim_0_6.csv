@@ -1,0 +1,13 @@
+smiles,label,max_sim
+Cc1ccc(-n2nc(C)c3cnc(-c4ccc([C@H]5C[C@@H]5C(=O)O)cc4F)cc32)nc1,0,0.594285714286
+COc1nn(-c2ccccn2)c2cc(-c3ccc([C@H]4C[C@@H]4C(=O)O)cc3)cc(F)c12,0,0.578947368421
+CC(C)(O)Cn1cc(-c2cc(F)c(O)cc2F)cn1,1,0.414814814815
+COc1nn(-c2ccccn2)c2cc(-c3ccc([C@H]4C[C@@H]4C(=O)O)cc3)ccc12,0,0.594285714286
+Cc1nn(-c2ccccn2)c2cc(-c3ccc(CC(C)(C)C(=O)O)cc3)ccc12,0,0.55900621118
+C[C@H](Cc1ccc(-c2ccc3cnn(-c4ccccn4)c3c2)cc1)C(=O)O,0,0.59649122807
+CC(C)(O)Cn1cc(B2OC(C)(C)C(C)(C)O2)cn1,1,0.261538461538
+O=C(O)CCc1ccc2oc(Nc3c(Cl)c(Cl)cc(Cl)c3Cl)nc2c1,1,0.564885496183
+C[C@@H](Cc1ccc(-c2ccc3cnn(-c4ccccn4)c3c2)cc1)C(=O)O,0,0.59649122807
+Cc1nn(-c2ccccn2)c2cc(-c3ccc(CCC(=O)O)cc3C#N)ccc12,0,0.594936708861
+CCCCCCCCc1sc(=O)[nH]c1O,0,0.543209876543
+Cc1nn(-c2ccccn2)c2cc(-c3ccc([C@H]4C[C@H]4C(=O)O)cc3)ccc12,0,0.56050955414

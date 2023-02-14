@@ -1,0 +1,7 @@
+source activate chemprop1.4.0
+python smi_molvs.py -f *.xlsx -s SMILES
+
+python feature.py -f *.csv -fps MorganFP RDkitFP AtomPairFP TorsionFP AvalonFP EstateFP MACCSFP PharmacoErGFP PharmacoPFP PubChemFP MHFP6 MAP4 Property Constitution Autocorr Fragment Charge Estate MOE Connectivity Topology Kappa Path Matrix InfoContent -threads 80
+
+## descriptor standardise procedure
+python 0b_prep_fp_scaler_desc_with_tesFile_V0.3.py -f Main.csv -test_files Ext.csv -fps Property Constitution Autocorr Fragment Charge Estate MOE Connectivity Topology Kappa Path Matrix InfoContent -save_csv
