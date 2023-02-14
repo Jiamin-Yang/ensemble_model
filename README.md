@@ -15,10 +15,31 @@ png
 ## Calculation and analysis of the model
 note: We used chemprop to partition the main dataset and then performed training and evaluation of the model. We also utilized an external dataset for additional evaluation of the model's performance.
 
-output files: 
-rand_{fearue} (feature= , AtomPairFP, Autocorr, AvalonFP, Charge, Connectivity, Constitution, Estate, EstateFP, Fragment, InfoContent, Kappa, MACCSFP, MAP4, Matrix, MHFP6, MOE, MorganFP, Path, PharmacoErGFP, PharmacoPFP, Property, PubChemFP, RDkitFP, Topology, TorsionFP)
+### Script: **1_baseline_models_chemprop1.4.0.ipynb** (build baseline models and get predictive score of compounds in main set)
 
-### Script: 1_baseline_models_chemprop1.4.0.ipynb (build baseline models and get predictive score)
-input files: rand_MorganFP (split_indices_fold{i}.pckl, i=fold number);fp folder (molecular representation of main set and external dataset); Ext.csv
+### **2_baselines_load_pred_ext_sim.ipynb** (load models and predict the probability of compounds in different external datasets)
 
-output files: {algorithm} (**p_{data}_{feature}_fold{i}.csv**. data=train, val, test and Ext. feature= AtomPairFP, MOE.... i=0,1, 2, 3, 4(fold number). algorithm=xgb,fcnn,rf,svm,logreg)
+### **3_anal_baseline_models.ipynb** (analysis the results of baseline model such as ROC AUC, and average the performance values of the model over five calculations)
+
+### **3b_anal_group_mdels_all_metric.ipynb** (caculate the performance values in all metric)
+
+## Optimization of the Ensemble Model
+
+### **4_ensemble.ipynb** (build ensemble model and optimize the ensmeble model)
+
+### **5_anal_ensemble.ipynb** (evaluate the ensmeble)
+
+### **6_check_compare_chiral_FP.ipynb** (explore the impact of chiral fingerprints on the models)
+
+### **7_search_fcnn_param.ipynb** (explore the impact of different parameters in FCNN on the ensemble model)
+
+
+
+
+
+
+
+
+
+
+
