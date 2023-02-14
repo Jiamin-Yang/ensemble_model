@@ -1,7 +1,7 @@
 # Predicting GPR40 Agonists with A Deep Learning-Based Ensemble Model
 this repository describes the calculation steps and optimization process of an ensemble model, as well as various results and related intermediate files.
 
-<a href="url"><img src="./docs/molmap.log.png" align="left" height="350" width="270" ></a>
+<a href="url"><img src="./docs/molmap.log.png" align="center" height="350" width="270" ></a>
 
 Table of Contents:
 
@@ -14,7 +14,6 @@ png
 
 ## Calculation and analysis of the model
 note: We used chemprop to partition the main dataset and then performed training and evaluation of the model. We also utilized an external dataset for additional evaluation of the model's performance.
-
 output files: 
 feature=AtomPairFP, Autocorr, AvalonFP, Charge, Connectivity, Constitution, Estate, EstateFP, Fragment, InfoContent, Kappa, MACCSFP, MAP4, Matrix, MHFP6, MOE, MorganFP, Path, PharmacoErGFP, PharmacoPFP, Property, PubChemFP, RDkitFP, Topology, TorsionFP
 
