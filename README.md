@@ -58,8 +58,8 @@ folders：
 4. **fp** (Molecular representations for compounds in the main and external datasets)  
  **fp2** (Molecular representations for compounds in various external datasets)
 
-5. **grouped_esb_metric** ("Performance values of ensemble model for different metrics)  
-**grouped_metric** ("Performance values of baseline models for different metrics)
+5. **grouped_esb_metric** (Performance values of ensemble model for different metrics)  
+**grouped_metric** (Performance values of baseline models for different metrics)
 
 6. **fcnn_AtomPairFP_search_param1, fcnn_AtomPairFP_search_param2_2layer** (parameter optimization of FCNN)
 
