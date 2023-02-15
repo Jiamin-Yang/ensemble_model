@@ -42,7 +42,7 @@ note: We used chemprop to partition the main dataset and then performed training
 ### Script: **7_search_fcnn_param.ipynb**  
 (We examined the effect of various parameters in the FCNN on the ensemble model.)
 
-## Introduce of different folders
+## Introduce of different folders and files
 
 folders：
 
@@ -63,19 +63,16 @@ folders：
 
 6. **fcnn_AtomPairFP_search_param1, fcnn_AtomPairFP_search_param2_2layer** (parameter optimization of FCNN)
 
-7. **Ext.csv, Ext_rm_sim_0_7.csv, Ext_rm_sim_0_8.csv, Ext_rm_sim_0_7.csv** (External datasets with varying numbers of compounds)  
+files：
+
+1. **Ext.csv, Ext_rm_sim_0_7.csv, Ext_rm_sim_0_8.csv, Ext_rm_sim_0_7.csv** (External datasets with varying numbers of compounds)  
 **Main.csv** (SMILES and labels for the main set compound)
 
-8. **eva_Morgan_chiral.csv**  
+2. **eva_Morgan_chiral.csv**  
 (Performance of various ensemble models with chiral fingerprints)
 
-9. **eva_with_rmSim_hyper.csv, eva_with_rmSim_hyper_2layer.csv**  
+3. **eva_with_rmSim_hyper.csv, eva_with_rmSim_hyper_2layer.csv**  
 (Performance of ensemble models with varying FCNN parameters)
 
-10. **eva_with_rmSim.csv** (Evaluation of baseline models using various external datasets)  
+4. **eva_with_rmSim.csv** (Evaluation of baseline models using various external datasets)  
 **eva_ensemble_with_rmSim.csv** (Evaluation of ensemble models using various external datasets)
-
-
-
-
-
