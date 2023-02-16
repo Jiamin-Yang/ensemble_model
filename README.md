@@ -1,5 +1,6 @@
 # Predicting GPR40 Agonists with A Deep Learning-Based Ensemble Model
-This repository describes the calculation steps and optimization process of an ensemble model, as well as various results and related intermediate files.
+This repository describes the calculation steps and optimization process of an ensemble model, as well as various results and related intermediate files.  
+For all the script and all meta files, please visit and download it from zenodo (DOI 10.5281/zenodo.7641975).
 
 <a href="url"><img src="./docs/image1.png" align="center" height="350" width="270" ></a>
 
@@ -48,20 +49,25 @@ folders：
 
 1. **rand_{fearue}** ：the split main set (including compound SMILES, feature, label)  
 (feature= , AtomPairFP, Autocorr, AvalonFP, Charge, Connectivity, Constitution, Estate, EstateFP, Fragment, InfoContent, Kappa, MACCSFP, MAP4, Matrix, MHFP6, MOE, MorganFP, Path, PharmacoErGFP, PharmacoPFP, Property, PubChemFP, RDkitFP, Topology, TorsionFP)
+The full files is available on Zenodo (DOI 10.5281/zenodo.7641975).
 
 2. **xgb, svm, log, DMPNN, rf and fcnn**  
 (The predictive probabilities of the various baseline models)
+These folders are at Zenodo.
 
 3. **esb, esb_01, voting**  
 (We present the evaluation results of various ensemble models with changes made to the number of nodes in the FCNN (esb/**esb.csv**) and the number of baseline models (esb/**esb_topN.csv**), binary options in layer 2 (esb_01/**esb_topN.csv**), and the use of stacking or voting (voting/**vot_topN.csv**). We also assessed the performance of these models with different external datasets (esb/**esb_rmSim.csv**).)  
 
 4. **fp** (Molecular representations for compounds in the main and external datasets)  
  **fp2** (Molecular representations for compounds in various external datasets)
+Both folders are at Zenodo.
 
 5. **grouped_esb_metric** (Performance values of ensemble model for different metrics)  
 **grouped_metric** (Performance values of baseline models for different metrics)
 
 6. **fcnn_AtomPairFP_search_param1, fcnn_AtomPairFP_search_param2_2layer** (parameter optimization of FCNN)
+
+7. **dataset** (original dataset: ChEMBL dataset, BindingDB dataset and manually collected dataset)
 
 files：
 
