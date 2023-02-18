@@ -47,7 +47,7 @@ note: We used chemprop to partition the main dataset and then performed training
 
 folders：
 
-1. **rand_{fearue}** ：the split main set (including compound SMILES, feature, label)  
+1. **rand_{fearue}** ：the split main set (including compound SMILES, feature, label) and trained D-MPNN models
 (feature= , AtomPairFP, Autocorr, AvalonFP, Charge, Connectivity, Constitution, Estate, EstateFP, Fragment, InfoContent, Kappa, MACCSFP, MAP4, Matrix, MHFP6, MOE, MorganFP, Path, PharmacoErGFP, PharmacoPFP, Property, PubChemFP, RDkitFP, Topology, TorsionFP)  
 The full files is available on Zenodo (DOI 10.5281/zenodo.7641975).
 
